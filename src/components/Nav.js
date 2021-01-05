@@ -5,7 +5,7 @@ const NavParent = styled.div`
   margin: 10px;
 `;
 
-export default function Nav() {
+export default function Nav(props) {
   return (
     <NavParent>
       <div>
