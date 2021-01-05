@@ -1,0 +1,20 @@
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+
+export default function Menu() {
+  return (
+    <Router>
+      <>
+        <h1>Hello World!</h1>
+      </>
+    </Router>
+  );
+}
+
+// export default () => {
+//   return (
+//     <>
+//       <Menu />
+//     </>
+//   );
+// };
