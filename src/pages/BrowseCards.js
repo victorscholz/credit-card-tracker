@@ -4,7 +4,7 @@ export default function BrowseCards(props) {
   return (
     <div>
       <h1>Browse Cards</h1>
-      <p>Chase Sapphire Reserve</p>
+      <p>All available cards will go here.</p>
     </div>
   );
 }

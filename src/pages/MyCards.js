@@ -4,7 +4,7 @@ export default function MyCards(props) {
   return (
     <div>
       <h1>My Cards</h1>
-      <p>American Express Platinum</p>
+      <p>All owned cards will go here.</p>
     </div>
   );
 }

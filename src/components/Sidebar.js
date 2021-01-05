@@ -44,7 +44,7 @@ export default function Sidebar(props, { defaultActive }) {
             );
           })}
         </div>
-        <div className="behind-the-scenes" />
+        <div className="side-bar" />
       </SidebarParent>
     </>
   );
@@ -62,7 +62,7 @@ const SidebarParent = styled.div`
     height: 100vh;
   }
 
-  .behind-the-scenes {
+  .side-bar {
     width: 250px;
   }
 `;
@@ -70,7 +70,7 @@ const SidebarParent = styled.div`
 const SidebarItem = styled.div`
   padding: 16px 24px;
   transition: all 0.25s ease-in-out;
-  background: ${(props) => (props.active ? "#7ABDBD" : "")};
+  background: ${(props) => (props.active ? "#595C61" : "")};
   margin: 4px 12px;
   border-radius: 4px;
   p {
@@ -81,9 +81,10 @@ const SidebarItem = styled.div`
 
   &:hover {
     cursor: pointer;
+    background: #7ABDBD;
   }
 
   &:hover:not(:first-child) {
-    background: #7ABDBD;
+    background: #282c34;
   }
 `;

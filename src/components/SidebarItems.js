@@ -2,6 +2,10 @@ const SidebarItems = [
   // add extra login/login name
   // route: /
   {
+    name: "HOME",
+    route: "/",
+  },
+  {
     name: "Dashboard",
     route: "/dashboard",
   },
